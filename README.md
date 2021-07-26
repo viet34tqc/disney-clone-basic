@@ -34,6 +34,7 @@ This is the clone of Disney Plus's layout with some basic features.<br>
 - Login Page
 - Header component
 - Nav Menu
+- Setup Firebase
 
 ### Contributing
 
