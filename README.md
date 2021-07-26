@@ -31,8 +31,9 @@ This is the clone of Disney Plus's layout with some basic features.<br>
 
 - Add normalize.css and some global styling
 - Setup Routing
-- Login Page        
+- Login Page
 - Header component
+- Nav Menu
 
 ### Contributing
 

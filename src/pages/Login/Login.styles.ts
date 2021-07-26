@@ -7,13 +7,9 @@ export const Container = styled.section`
 	padding: 16px;
 
 	position: relative;
-
-	color: var(--c-text);
-
 	text-align: center;
 
-	overflow: hidden;
-	height: 100vh;
+	height: calc(100vh - 70px);
 `;
 
 export const CTA = styled.div`

@@ -32,3 +32,16 @@ button {
 	transition: 0.3s ease all;
 	cursor: pointer;
 }
+
+.d-flex {
+	display: flex;
+}
+.space-between {
+	justify-content: space-between;
+}
+.space-center {
+	justify-content: center;
+}
+.align-center {
+	align-items: center;
+}
