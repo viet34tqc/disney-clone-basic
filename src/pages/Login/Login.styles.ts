@@ -6,7 +6,7 @@ export const Container = styled.section`
 	align-items: center;
 	padding: 16px;
 
-    position: relative;
+	position: relative;
 
 	color: var(--c-text);
 
@@ -27,6 +27,9 @@ export const CTALogo1 = styled.img`
 
 export const CTAText = styled.p`
 	margin-bottom: 24px;
+
+	font-size: 11px;
+	letter-spacing: 1.5px;
 `;
 
 export const CTALogo2 = styled.img``;

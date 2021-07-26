@@ -1,9 +1,12 @@
+import * as S from './Header.styles';
+
 const Header = () => {
-    return (
-        <div>
+	return (
+		<S.Header>
+			<S.Logo src="/images/logo.svg" alt="Disney+" />
+            <S.Login>Login</S.Login>
+		</S.Header>
+	);
+};
 
-        </div>
-    )
-}
-
-export default Header
+export default Header;
