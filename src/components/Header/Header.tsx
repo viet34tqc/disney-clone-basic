@@ -28,7 +28,6 @@ const Header = () => {
 	useEffect(() => {
 		auth.onAuthStateChanged(async (user) => {
 			if (user) {
-				console.log('user', user);
 				setUser(user);
 				history.push('/home');
 			}
@@ -79,20 +78,22 @@ const Header = () => {
 	);
 	return (
 		<S.Header>
-			<S.Logo src="/images/logo.svg" alt="Disney+" />
-			{!userName ? (
-				<S.Login onClick={handleLogin}>Login</S.Login>
-			) : (
-				<>
-					{NavMenu}
-					<S.SignOut>
-						<S.UserImg src={userPhoto} alt={userName} />
-						<S.DropDown>
-							<span onClick={handleLogout}>Sign out</span>
-						</S.DropDown>
-					</S.SignOut>
-				</>
-			)}
+			<S.HContainer>
+				<S.Logo src="/images/logo.svg" alt="Disney+" />
+				{!userName ? (
+					<S.Login onClick={handleLogin}>Login</S.Login>
+				) : (
+					<>
+						{NavMenu}
+						<S.SignOut>
+							<S.UserImg src={userPhoto} alt={userName} />
+							<S.DropDown>
+								<span onClick={handleLogout}>Sign out</span>
+							</S.DropDown>
+						</S.SignOut>
+					</>
+				)}
+			</S.HContainer>
 		</S.Header>
 	);
 };

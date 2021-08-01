@@ -20,8 +20,9 @@ This is the clone of Disney Plus's layout with some basic features.<br>
 - TypeScript
 - Styled Components
 - Firebase
+- React Slick
 
-### What you will learn
+### What will you learn
 
 - How to use Styled Components
 - How to setup Redux Toolkit to create a store
@@ -35,6 +36,8 @@ This is the clone of Disney Plus's layout with some basic features.<br>
 - Header component
 - Nav Menu
 - Setup Firebase
+- Home Page
+  - Slider
 
 ### Contributing
 
