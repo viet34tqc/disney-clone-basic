@@ -1,5 +1,5 @@
 import { useCallback, useEffect } from 'react';
-import { useHistory } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import { useAppDispatch, useAppSelector } from '../../app/hooks';
 import {
 	setSignoutState,
@@ -79,7 +79,9 @@ const Header = () => {
 	return (
 		<S.Header>
 			<S.HContainer>
-				<S.Logo src="/images/logo.svg" alt="Disney+" />
+				<Link to={userName ? '/home' : '/'}>
+					<S.Logo src="/images/logo.svg" alt="Disney+" />
+				</Link>
 				{!userName ? (
 					<S.Login onClick={handleLogin}>Login</S.Login>
 				) : (

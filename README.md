@@ -27,6 +27,7 @@ This is the clone of Disney Plus's layout with some basic features.<br>
 - How to use Styled Components
 - How to setup Redux Toolkit to create a store
 - How to authenticate using Firebase
+- How to get data from Firestore
 
 ### Steps
 
@@ -38,6 +39,8 @@ This is the clone of Disney Plus's layout with some basic features.<br>
 - Setup Firebase
 - Home Page
   - Slider
+  - Categories
+- Details
 
 ### Contributing
 
