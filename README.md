@@ -1,7 +1,7 @@
 # Basic Disney Plus Clone
 
 This is the clone of Disney Plus's layout with some basic features.<br>
-<a href="https://github.com/github_username/repo_name">View Demo</a>
+<a href="https://disney-clone-basic-pper86tz1-viet34tqc.vercel.app/">View Demo</a>
 
 <!-- TABLE OF CONTENTS -->
 
